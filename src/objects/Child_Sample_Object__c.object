@@ -53,6 +53,14 @@
     <enableReports>false</enableReports>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <label>Child Sample Object</label>
+    <nameField>
+        <label>Child Sample Object Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Children Sample Objects</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
     <fields>
         <fullName>Parent__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
@@ -65,12 +73,4 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <label>Child Sample Object</label>
-    <nameField>
-        <label>Child Sample Object Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Children Sample Objects</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
