@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>CumulusCI-Test</fullName>
+    <fullName>CumulusCI Test</fullName>
     <types>
         <members>SampleClass</members>
         <members>SampleClass_TEST</members>
@@ -19,6 +19,15 @@
     <types>
         <members>SampleTrigger</members>
         <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Opportunity.NPSP_Default</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
+        <members>Account.NPSP_Household_Account</members>
+        <members>Account.NPSP_Organization_Account</members>
+        <name>CompactLayout</name>
     </types>
     <types>
         <members>CumulusCITest</members>
@@ -52,16 +61,29 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>Account.Household_Accounts</members>
+        <members>Opportunity.Default_Opportunity_Pipeline</members>
         <members>SampleObject__c.All</members>
         <name>ListView</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
     </types>
     <types>
         <members>SampleObject__c.New_Child</members>
         <name>QuickAction</name>
     </types>
     <types>
+        <members>Account.HH_Account</members>
+        <members>Account.Organization</members>
+        <members>Opportunity.NPSP_Default</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>SampleObject__c.Just_Testing</members>
         <name>WebLink</name>
     </types>
-    <version>31.0</version>
+    <version>46.0</version>
 </Package>
