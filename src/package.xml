@@ -26,7 +26,7 @@
     </types>
     <types>
         <members>Child_Sample_Object__c.Parent__c</members>
-        <members>Contact.Favorite_Color__c</members>
+        <members>Contact.foo_bar__c</members>
         <members>SampleObject__c.Sample_Field__c</members>
         <name>CustomField</name>
     </types>
