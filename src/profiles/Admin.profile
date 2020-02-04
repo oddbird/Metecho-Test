@@ -34,6 +34,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.hello_world__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SampleObject__c.Sample_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
