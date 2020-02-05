@@ -26,6 +26,7 @@
     </types>
     <types>
         <members>Child_Sample_Object__c.Parent__c</members>
+        <members>Contact.foo_bar_baz__c</members>
         <members>SampleObject__c.Sample_Field__c</members>
         <name>CustomField</name>
     </types>
@@ -48,6 +49,7 @@
     </types>
     <types>
         <members>Child_Sample_Object__c-Child Sample Object Layout</members>
+        <members>Contact-Contact Layout</members>
         <members>SampleObject__c-SampleObject Layout</members>
         <name>Layout</name>
     </types>

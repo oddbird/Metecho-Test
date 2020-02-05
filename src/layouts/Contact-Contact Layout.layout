@@ -49,6 +49,10 @@
                 <behavior>Edit</behavior>
                 <field>hello_world__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>foo_bar_baz__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
