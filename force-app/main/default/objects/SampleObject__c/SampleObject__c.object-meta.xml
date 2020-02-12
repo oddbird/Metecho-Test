@@ -46,6 +46,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>This is a generic template for Custom Object.  With this template, you may adjust the default elements and values and add new elements and values.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -53,24 +54,12 @@
     <enableReports>false</enableReports>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <fields>
-        <fullName>Parent__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Parent</label>
-        <referenceTo>SampleObject__c</referenceTo>
-        <relationshipLabel>Children Sample Objects</relationshipLabel>
-        <relationshipName>Children_Sample_Objects</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <label>Child Sample Object</label>
+    <label>SampleObject</label>
     <nameField>
-        <label>Child Sample Object Name</label>
+        <label>Custom Object Label Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Children Sample Objects</pluralLabel>
+    <pluralLabel>SampleObjects</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
