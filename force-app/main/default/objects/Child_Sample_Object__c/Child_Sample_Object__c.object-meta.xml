@@ -61,16 +61,4 @@
     <pluralLabel>Children Sample Objects</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <fields>
-        <fullName>Parent__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Parent</label>
-        <referenceTo>SampleObject__c</referenceTo>
-        <relationshipLabel>Children Sample Objects</relationshipLabel>
-        <relationshipName>Children_Sample_Objects</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
 </CustomObject>
