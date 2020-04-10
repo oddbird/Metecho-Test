@@ -53,6 +53,10 @@
                 <behavior>Edit</behavior>
                 <field>hello_world__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>boo_nany__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
