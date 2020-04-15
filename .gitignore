@@ -4,3 +4,4 @@
 *.pyc
 /browser_tests
 /test_results.xml
+force-app/main/default/objects/Contact/fields/Widget__c.field-meta.xml
