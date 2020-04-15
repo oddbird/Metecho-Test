@@ -45,6 +45,14 @@
                 <behavior>Edit</behavior>
                 <field>Favorite_Color__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>foo_bar_baz__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>lorem_ipsum__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
