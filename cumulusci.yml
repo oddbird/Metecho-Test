@@ -1,8 +1,8 @@
 project:
-    name: MetaShare-Test
+    name: Metecho-Test
     package:
-        name: MetaShare Test
-        api_version: 47.0
+        name: Metecho Test
+        api_version: 48.0
     git:
-        repo_url: https://github.com/oddbird/MetaShare-Test
+        repo_url: https://github.com/oddbird/Metecho-Test
     source_format: sfdx
