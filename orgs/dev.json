@@ -1,10 +1,14 @@
 {
   "edition": "Developer",
-  "orgName": "CumulusCI-Test Dev Workspace", 
+  "orgName": "Metecho-Test Dev Workspace",
   "settings": {
-    "orgPreferenceSettings": {
-      "chatterEnabled": true,
-      "s1DesktopEnabled": true
+    "settings": {
+      "chatterSettings": {
+        "enableChatter": true
+      },
+      "lightningExperienceSettings": {
+        "enableS1DesktopEnabled": true
+      }
     }
   }
 }
