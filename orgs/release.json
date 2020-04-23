@@ -2,13 +2,11 @@
   "edition": "Developer",
   "orgName": "Metecho-Test Release Test Org",
   "settings": {
-    "settings": {
-      "chatterSettings": {
-        "enableChatter": true
-      },
-      "lightningExperienceSettings": {
-        "enableS1DesktopEnabled": true
-      }
+    "chatterSettings": {
+      "enableChatter": true
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
     }
   }
 }
