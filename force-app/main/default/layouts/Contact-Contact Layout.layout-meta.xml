@@ -43,7 +43,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Favorite_Color__c</field>
+                <field>Favorite_Colors__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
