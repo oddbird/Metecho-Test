@@ -1,8 +1,8 @@
 project:
-  name: Metecho-Test
-  package:
-    name: Metecho Test - Edited
-    api_version: 48.0
-  git:
-    repo_url: https://github.com/oddbird/Metecho-Test
-  source_format: sfdx
+    name: Metecho-Test
+    package:
+        name: Metecho Test
+        api_version: 48.0
+    git:
+        repo_url: https://github.com/oddbird/Metecho-Test
+    source_format: sfdx
