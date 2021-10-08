@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Favorite_Letter__c</fullName>
+    <fullName>Favorite_Letters__c</fullName>
     <externalId>false</externalId>
-    <label>Favorite Letter</label>
-    <length>30</length>
+    <label>Favorite Letters</label>
+    <length>35</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Text</type>
