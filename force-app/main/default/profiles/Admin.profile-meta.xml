@@ -3,12 +3,12 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ResourceAbsence.Field_1__c</field>
+        <field>ResourceAbsence.field_abc2__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ResourceAbsence.Field_abc__c</field>
+        <field>ResourceAbsence.field_foo__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
