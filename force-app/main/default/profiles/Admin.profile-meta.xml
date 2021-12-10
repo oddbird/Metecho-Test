@@ -6,6 +6,11 @@
         <field>ResourceAbsence.field_abc2__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ResourceAbsence.field_foo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>ResourceAbsence-Resource Absence Layout</layout>
     </layoutAssignments>
