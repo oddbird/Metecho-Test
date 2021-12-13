@@ -3,16 +3,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ResourceAbsence.field_abc2__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ResourceAbsence.field_foo__c</field>
+        <field>Account.Field_1__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>ResourceAbsence-Resource Absence Layout</layout>
+        <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
