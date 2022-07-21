@@ -4,3 +4,4 @@ Insert Account:
   fields:
   - Id
   - Name
+  - Phone

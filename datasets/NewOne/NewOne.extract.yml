@@ -2,3 +2,5 @@ extract:
   Account:
     fields:
     - Id
+    - Name
+    - Phone
