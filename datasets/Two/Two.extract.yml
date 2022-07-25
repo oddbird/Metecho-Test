@@ -1,4 +1,19 @@
 extract:
-  Account:
+  WorkBadgeDefinition:
     fields:
-    - Id
+    - IsActive
+    - Name
+    - IsCompanyWide
+    - CreatedDate
+    - IsDeleted
+    - Description
+    - GivenBadgeCount
+    - ImageUrl
+    - LastModifiedDate
+    - LastReferencedDate
+    - LastViewedDate
+    - LimitNumber
+    - IsLimitPerUser
+    - LimitStartDate
+    - IsRewardBadge
+    - SystemModstamp

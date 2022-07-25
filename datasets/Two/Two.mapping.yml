@@ -1,6 +1,20 @@
-Insert Account:
-  sf_object: Account
-  table: Account
+Insert WorkBadgeDefinition:
+  sf_object: WorkBadgeDefinition
+  table: WorkBadgeDefinition
   fields:
-  - Id
+  - IsActive
   - Name
+  - IsCompanyWide
+  - CreatedDate
+  - IsDeleted
+  - Description
+  - GivenBadgeCount
+  - ImageUrl
+  - LastModifiedDate
+  - LastReferencedDate
+  - LastViewedDate
+  - LimitNumber
+  - IsLimitPerUser
+  - LimitStartDate
+  - IsRewardBadge
+  - SystemModstamp
