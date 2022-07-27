@@ -1,0 +1,4 @@
+extract:
+  Contact:
+    fields:
+    - Widget__c
