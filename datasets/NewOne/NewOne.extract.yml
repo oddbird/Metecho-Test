@@ -1,0 +1,51 @@
+extract:
+  Opportunity:
+    fields:
+    - Amount
+    - CloseDate
+    - IsClosed
+    - CreatedDate
+    - IsDeleted
+    - Description
+    - ExpectedRevenue
+    - Fiscal
+    - FiscalQuarter
+    - FiscalYear
+    - ForecastCategory
+    - ForecastCategoryName
+    - HasOpportunityLineItem
+    - HasOpenActivity
+    - HasOverdueTask
+    - LastActivityDate
+    - LastModifiedDate
+    - LastReferencedDate
+    - LastViewedDate
+    - LeadSource
+    - Name
+    - NextStep
+    - Type
+    - IsPrivate
+    - Probability
+    - TotalOpportunityQuantity
+    - StageName
+    - SystemModstamp
+    - IsWon
+  Contact:
+    fields:
+    - Salutation
+    - LastName
+    - FirstName
+    - Email
+    - DoNotCall
+    - PhotoUrl
+    - HasOptedOutOfEmail
+    - HasOptedOutOfFax
+    - AccountId
+  Account:
+    fields:
+    - Name
+    - Rating
+    - Phone
+    - Site
+    - BillingAddress
+    - my_checkbox__c

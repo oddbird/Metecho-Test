@@ -1,0 +1,20 @@
+Insert WorkBadgeDefinition:
+  sf_object: WorkBadgeDefinition
+  table: WorkBadgeDefinition
+  fields:
+  - CreatedDate
+  - Description
+  - GivenBadgeCount
+  - ImageUrl
+  - IsActive
+  - IsCompanyWide
+  - IsDeleted
+  - IsLimitPerUser
+  - IsRewardBadge
+  - LastModifiedDate
+  - LastReferencedDate
+  - LastViewedDate
+  - LimitNumber
+  - LimitStartDate
+  - Name
+  - SystemModstamp

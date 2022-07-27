@@ -1,0 +1,59 @@
+Insert Opportunity:
+  sf_object: Opportunity
+  table: Opportunity
+  fields:
+  - Amount
+  - CloseDate
+  - IsClosed
+  - CreatedDate
+  - IsDeleted
+  - Description
+  - ExpectedRevenue
+  - Fiscal
+  - FiscalQuarter
+  - FiscalYear
+  - ForecastCategory
+  - ForecastCategoryName
+  - HasOpportunityLineItem
+  - HasOpenActivity
+  - HasOverdueTask
+  - LastActivityDate
+  - LastModifiedDate
+  - LastReferencedDate
+  - LastViewedDate
+  - LeadSource
+  - Name
+  - NextStep
+  - Type
+  - IsPrivate
+  - Probability
+  - TotalOpportunityQuantity
+  - StageName
+  - SystemModstamp
+  - IsWon
+Insert Account:
+  sf_object: Account
+  table: Account
+  fields:
+  - Name
+  - Rating
+  - Phone
+  - Site
+  - BillingAddress
+  - my_checkbox__c
+Insert Contact:
+  sf_object: Contact
+  table: Contact
+  fields:
+  - Salutation
+  - LastName
+  - FirstName
+  - Email
+  - DoNotCall
+  - PhotoUrl
+  - HasOptedOutOfEmail
+  - HasOptedOutOfFax
+  lookups:
+    AccountId:
+      table: Account
+      key_field: AccountId

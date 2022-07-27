@@ -1,0 +1,21 @@
+extract:
+  WorkBadgeDefinition:
+    fields:
+    - CreatedById
+    - CreatedDate
+    - Description
+    - GivenBadgeCount
+    - ImageUrl
+    - IsActive
+    - IsCompanyWide
+    - IsDeleted
+    - IsLimitPerUser
+    - IsRewardBadge
+    - LastModifiedById
+    - LastModifiedDate
+    - LastReferencedDate
+    - LastViewedDate
+    - LimitNumber
+    - LimitStartDate
+    - Name
+    - SystemModstamp
