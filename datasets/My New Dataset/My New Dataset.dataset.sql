@@ -1,4 +1,10 @@
 BEGIN TRANSACTION;
+CREATE TABLE "Account" (
+	id INTEGER NOT NULL, 
+	"Fax" VARCHAR(255), 
+	"Name" VARCHAR(255), 
+	PRIMARY KEY (id)
+);
 CREATE TABLE "Contact" (
 	id INTEGER NOT NULL, 
 	"Widget__c" VARCHAR(255), 

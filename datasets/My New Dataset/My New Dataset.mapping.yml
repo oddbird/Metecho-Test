@@ -7,3 +7,9 @@ Insert Contact:
   - HasOptedOutOfEmail
   - HasOptedOutOfFax
   - LastName
+Insert Account:
+  sf_object: Account
+  table: Account
+  fields:
+  - Fax
+  - Name
