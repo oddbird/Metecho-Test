@@ -30,3 +30,18 @@ extract:
     - StageName
     - SystemModstamp
     - IsWon
+  Contact:
+    fields:
+    - Salutation
+    - LastName
+    - FirstName
+    - Email
+    - DoNotCall
+    - PhotoUrl
+  Account:
+    fields:
+    - Name
+    - Rating
+    - Phone
+    - Site
+    - BillingAddress

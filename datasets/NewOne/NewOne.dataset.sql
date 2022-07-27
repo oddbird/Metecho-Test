@@ -1,4 +1,29 @@
 BEGIN TRANSACTION;
+CREATE TABLE "Account" (
+	id INTEGER NOT NULL, 
+	"Name" VARCHAR(255), 
+	"Rating" VARCHAR(255), 
+	"Phone" VARCHAR(255), 
+	"Site" VARCHAR(255), 
+	"BillingAddress" VARCHAR(255), 
+	my_checkbox__c VARCHAR(255), 
+	PRIMARY KEY (id)
+);
+INSERT INTO "Account" VALUES(1,'Test Account','','','','','False');
+CREATE TABLE "Contact" (
+	id INTEGER NOT NULL, 
+	"Salutation" VARCHAR(255), 
+	"LastName" VARCHAR(255), 
+	"FirstName" VARCHAR(255), 
+	"Email" VARCHAR(255), 
+	"DoNotCall" VARCHAR(255), 
+	"PhotoUrl" VARCHAR(255), 
+	"HasOptedOutOfEmail" VARCHAR(255), 
+	"HasOptedOutOfFax" VARCHAR(255), 
+	PRIMARY KEY (id)
+);
+INSERT INTO "Contact" VALUES(1,'Dr.','Baz','Bar','','False','/services/images/photo/0031F00000sPJx9QAG','False','False');
+INSERT INTO "Contact" VALUES(2,'Mr.','Bar','Foo','','False','/services/images/photo/0031F00000sPJwzQAG','False','False');
 CREATE TABLE "Opportunity" (
 	id INTEGER NOT NULL, 
 	"Amount" VARCHAR(255), 
