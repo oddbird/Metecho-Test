@@ -1,0 +1,9 @@
+Insert Contact:
+  sf_object: Contact
+  table: Contact
+  fields:
+  - Widget__c
+  - DoNotCall
+  - HasOptedOutOfEmail
+  - HasOptedOutOfFax
+  - LastName
