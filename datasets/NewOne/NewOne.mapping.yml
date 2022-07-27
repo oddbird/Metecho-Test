@@ -31,6 +31,16 @@ Insert Opportunity:
   - StageName
   - SystemModstamp
   - IsWon
+Insert Account:
+  sf_object: Account
+  table: Account
+  fields:
+  - Name
+  - Rating
+  - Phone
+  - Site
+  - BillingAddress
+  - my_checkbox__c
 Insert Contact:
   sf_object: Contact
   table: Contact
@@ -43,13 +53,7 @@ Insert Contact:
   - PhotoUrl
   - HasOptedOutOfEmail
   - HasOptedOutOfFax
-Insert Account:
-  sf_object: Account
-  table: Account
-  fields:
-  - Name
-  - Rating
-  - Phone
-  - Site
-  - BillingAddress
-  - my_checkbox__c
+  lookups:
+    AccountId:
+      table: Account
+      key_field: AccountId

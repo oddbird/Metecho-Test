@@ -38,6 +38,9 @@ extract:
     - Email
     - DoNotCall
     - PhotoUrl
+    - HasOptedOutOfEmail
+    - HasOptedOutOfFax
+    - AccountId
   Account:
     fields:
     - Name
@@ -45,3 +48,4 @@ extract:
     - Phone
     - Site
     - BillingAddress
+    - my_checkbox__c

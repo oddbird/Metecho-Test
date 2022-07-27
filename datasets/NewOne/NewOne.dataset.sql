@@ -20,10 +20,11 @@ CREATE TABLE "Contact" (
 	"PhotoUrl" VARCHAR(255), 
 	"HasOptedOutOfEmail" VARCHAR(255), 
 	"HasOptedOutOfFax" VARCHAR(255), 
+	"AccountId" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
-INSERT INTO "Contact" VALUES(1,'Dr.','Baz','Bar','','False','/services/images/photo/0031F00000sPJx9QAG','False','False');
-INSERT INTO "Contact" VALUES(2,'Mr.','Bar','Foo','','False','/services/images/photo/0031F00000sPJwzQAG','False','False');
+INSERT INTO "Contact" VALUES(1,'Dr.','Baz','Bar','','False','/services/images/photo/0031F00000sPJx9QAG','False','False','1');
+INSERT INTO "Contact" VALUES(2,'Mr.','Bar','Foo','','False','/services/images/photo/0031F00000sPJwzQAG','False','False','');
 CREATE TABLE "Opportunity" (
 	id INTEGER NOT NULL, 
 	"Amount" VARCHAR(255), 
