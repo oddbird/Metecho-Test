@@ -2,3 +2,10 @@ extract:
   Contact:
     fields:
     - Widget__c
+    - DoNotCall
+    - HasOptedOutOfEmail
+    - HasOptedOutOfFax
+    - LastName
+  Account:
+    fields:
+    - Description
