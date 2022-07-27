@@ -2,7 +2,6 @@ Insert Account:
   sf_object: Account
   table: Account
   fields:
-  - Id
   - Name
 Insert WorkBadgeDefinition:
   sf_object: WorkBadgeDefinition
@@ -11,7 +10,6 @@ Insert WorkBadgeDefinition:
   - CreatedDate
   - Description
   - GivenBadgeCount
-  - Id
   - ImageUrl
   - IsActive
   - IsCompanyWide
@@ -25,3 +23,12 @@ Insert WorkBadgeDefinition:
   - LimitStartDate
   - Name
   - SystemModstamp
+Insert Contact:
+  sf_object: Contact
+  table: Contact
+  fields:
+  - oZ__c
+  - DoNotCall
+  - HasOptedOutOfEmail
+  - HasOptedOutOfFax
+  - LastName

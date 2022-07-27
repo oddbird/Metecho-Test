@@ -1,11 +1,20 @@
 BEGIN TRANSACTION;
 CREATE TABLE "Account" (
-	"Id" VARCHAR(255) NOT NULL, 
+	id INTEGER NOT NULL, 
 	"Name" VARCHAR(255), 
-	PRIMARY KEY ("Id")
+	PRIMARY KEY (id)
+);
+CREATE TABLE "Contact" (
+	id INTEGER NOT NULL, 
+	"oZ__c" VARCHAR(255), 
+	"DoNotCall" VARCHAR(255), 
+	"HasOptedOutOfEmail" VARCHAR(255), 
+	"HasOptedOutOfFax" VARCHAR(255), 
+	"LastName" VARCHAR(255), 
+	PRIMARY KEY (id)
 );
 CREATE TABLE "WorkBadgeDefinition" (
-	"Id" VARCHAR(255) NOT NULL, 
+	id INTEGER NOT NULL, 
 	"CreatedDate" VARCHAR(255), 
 	"Description" VARCHAR(255), 
 	"GivenBadgeCount" VARCHAR(255), 
@@ -22,6 +31,6 @@ CREATE TABLE "WorkBadgeDefinition" (
 	"LimitStartDate" VARCHAR(255), 
 	"Name" VARCHAR(255), 
 	"SystemModstamp" VARCHAR(255), 
-	PRIMARY KEY ("Id")
+	PRIMARY KEY (id)
 );
 COMMIT;
