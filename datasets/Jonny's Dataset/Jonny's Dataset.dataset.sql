@@ -61,6 +61,7 @@ CREATE TABLE "Contact" (
 	"HasOptedOutOfEmail" VARCHAR(255), 
 	"HasOptedOutOfFax" VARCHAR(255), 
 	"LastName" VARCHAR(255), 
+	"oZ__c" VARCHAR(255), 
 	PRIMARY KEY (id)
 );
 COMMIT;

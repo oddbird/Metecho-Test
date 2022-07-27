@@ -55,3 +55,8 @@ extract:
     fields:
     - Widget__c
     - Object__c
+    - DoNotCall
+    - HasOptedOutOfEmail
+    - HasOptedOutOfFax
+    - LastName
+    - oZ__c
