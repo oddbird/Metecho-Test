@@ -1,6 +1,32 @@
 extract:
-  Account:
+  Opportunity:
     fields:
-    - Id
+    - Amount
+    - CloseDate
+    - IsClosed
+    - CreatedDate
+    - IsDeleted
+    - Description
+    - ExpectedRevenue
+    - Fiscal
+    - FiscalQuarter
+    - FiscalYear
+    - ForecastCategory
+    - ForecastCategoryName
+    - HasOpportunityLineItem
+    - HasOpenActivity
+    - HasOverdueTask
+    - LastActivityDate
+    - LastModifiedDate
+    - LastReferencedDate
+    - LastViewedDate
+    - LeadSource
     - Name
-    - Phone
+    - NextStep
+    - Type
+    - IsPrivate
+    - Probability
+    - TotalOpportunityQuantity
+    - StageName
+    - SystemModstamp
+    - IsWon
