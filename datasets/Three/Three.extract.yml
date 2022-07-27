@@ -1,15 +1,10 @@
 extract:
-  Account:
-    fields:
-    - Id
-    - Name
   WorkBadgeDefinition:
     fields:
     - CreatedById
     - CreatedDate
     - Description
     - GivenBadgeCount
-    - Id
     - ImageUrl
     - IsActive
     - IsCompanyWide
@@ -23,5 +18,4 @@ extract:
     - LimitNumber
     - LimitStartDate
     - Name
-    - OwnerId
     - SystemModstamp
